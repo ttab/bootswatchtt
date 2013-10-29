@@ -1,20 +1,9 @@
 {
-	"name": "bootswatch",
-	"description": "Bootswatch is a collection of themes for Bootstrap.",
-	"version": "3.0.0",
-	"author": "Thomas Park",
-	"homepage": "http://bootswatch.com",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/thomaspark/bootswatch.git"
-	},
+	"name": "bootswatchtt",
+	"description": "TT theme made with Bootswatch",
+	"version": "1.0.0",
 	"dependencies": {
 		"bootstrap": "~3.0.0"
 	},
-	"licenses": [
-		{
-			"type": "Apache-2.0",
-			"url": "http://www.apache.org/licenses/LICENSE-2.0"
-		}
-	]
+    "main": ["tt/bootstrap.js", "tt/bootstrap.css"]
 }

@@ -63,6 +63,10 @@ module.exports = function (grunt) {
 		grunt.config('recess.dist.files', files);
 		grunt.config('recess.dist.options.compress', false);
 
+        // Addition by TT
+        grunt.file.copy('bower_components/bootstrap/dist/js/bootstrap.js', theme + '/bootstrap.js');
+
+
 		grunt.task.run(['concat', 'recess:dist', 'clean:build',
 			compress ? 'compress:'+recessDest+':'+'<%=builddir%>/' + theme + '/bootstrap.min.css':'none']);
 	});

@@ -7290,6 +7290,12 @@ fieldset[disabled] .btn-default.active {
   border-color: #969696;
 }
 
+.btn-default:hover {
+  color: black;
+  background: #ffe100;
+  border-color: #ffe100;
+}
+
 .btn-primary {
   color: #ffffff;
   background-color: #1269b0;

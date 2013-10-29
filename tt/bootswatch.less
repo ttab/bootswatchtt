@@ -31,6 +31,11 @@ a:hover {
 
 .btn-default {
   .button-variant(@btn-default-color; @btn-default-bg; @btn-default-border);
+  &:hover {
+      background: @brand-danger;
+      border-color: @brand-danger;
+      color: black;
+  }
 }
 .btn-primary {
   .button-variant(@btn-primary-color; @btn-primary-bg; @btn-primary-border);
