@@ -8,5 +8,11 @@
     "dependencies": {
         "jquery": ">= 1.9.0"
     },
-    "main": ["tt/bootstrap.js", "tt/bootstrap.css"]
+    "main": ["tt/bootstrap.js",
+             "tt/bootstrap.css",
+             "assets/css/fontello.css",
+             "assets/fonts/fontello.eot",
+             "assets/fonts/fontello.svg",
+             "assets/fonts/fontello.ttf",
+             "assets/fonts/fontello.woff"]
 }
