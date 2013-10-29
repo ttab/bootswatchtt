@@ -7228,6 +7228,16 @@ td.visible-print {
   }
 }
 
+::selection {
+  color: black;
+  background: #ffe100;
+}
+
+::-moz-selection {
+  color: black;
+  background: #ffe100;
+}
+
 a:hover {
   color: #ffe100 !important;
   text-decoration: none;
