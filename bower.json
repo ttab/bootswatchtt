@@ -2,7 +2,7 @@
 	"name": "bootswatchtt",
 	"description": "TT theme made with Bootswatch",
 	"version": "1.0.0",
-	"dependencies": {
+	"devDependencies": {
 		"bootstrap": "~3.0.0"
 	},
     "main": ["tt/bootstrap.js", "tt/bootstrap.css"]
