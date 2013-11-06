@@ -13,7 +13,7 @@
 
 a:hover {
     text-decoration: none;
-    color: @link-hover-color !important;
+    color: @link-hover-color;
 }
 
 
@@ -39,18 +39,32 @@ a:hover {
 
 .btn-default {
   .button-variant(@btn-default-color; @btn-default-bg; @btn-default-border);
-  &:hover {
+  &:hover,
+  &:focus,
+  &:active,
+  &.active,
+  .open .dropdown-toggle& {
       background: @brand-danger;
       border-color: @brand-danger;
       color: black;
   }
 }
+
 .btn-primary {
   .button-variant(@btn-primary-color; @btn-primary-bg; @btn-primary-border);
 }
-// Warning appears as orange
+// Warning appears as red for TT
 .btn-warning {
   .button-variant(@btn-warning-color; @btn-warning-bg; @btn-warning-border);
+  &:hover,
+  &:focus,
+  &:active,
+  &.active,
+  .open .dropdown-toggle& {
+    color: @btn-warning-color;
+    background-color: darken(@btn-warning-bg, 8%);
+        border-color: darken(@btn-warning-border, 12%);
+  }
 }
 // Danger and error appear as red
 .btn-danger {

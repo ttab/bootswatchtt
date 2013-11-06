@@ -7239,7 +7239,7 @@ td.visible-print {
 }
 
 a:hover {
-  color: #ffe100 !important;
+  color: #ffe100;
   text-decoration: none;
 }
 
@@ -7300,7 +7300,11 @@ fieldset[disabled] .btn-default.active {
   border-color: #969696;
 }
 
-.btn-default:hover {
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
   color: black;
   background: #ffe100;
   border-color: #ffe100;
@@ -7386,6 +7390,16 @@ fieldset[disabled] .btn-warning:active,
 fieldset[disabled] .btn-warning.active {
   background-color: #c94646;
   border-color: #c84242;
+}
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning.active,
+.open .dropdown-toggle.btn-warning {
+  color: #ffffff;
+  background-color: #b23434;
+  border-color: #9e2e2e;
 }
 
 .btn-danger {
