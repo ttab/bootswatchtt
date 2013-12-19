@@ -16,8 +16,53 @@ a:hover {
     color: @link-hover-color;
 }
 
-
 // Navbar =====================================================================
+
+.navbar {
+  > .container {
+    .navbar-brand {
+      padding: 10px;
+    }
+  }
+}
+
+.navbar-form {
+  width: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
+  border: 0;
+  width: 40%;
+  margin-left: 10%;
+  float: left;
+}
+
+.navbar-nav {
+  float: left;
+  margin: 0;
+
+  > li {
+    float: left;
+
+    > a {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+  }
+}
+
+.navbar-right {
+  float: right !important;
+}
+
+.navbar-inverse .navbar-nav {
+
+  > li > a {
+    color: #aeaeae;
+    text-transform: uppercase;
+  }
+}
 
 // Buttons ====================================================================
 
@@ -169,6 +214,12 @@ h4 small, .h4 small { font-size: @font-size-base; }
 // Navs =======================================================================
 
 // Indicators =================================================================
+
+.breadcrumb {
+  display: inline-block;
+  background-color: transparent;
+  margin-bottom: 0;
+}
 
 // Progress bars ==============================================================
 
