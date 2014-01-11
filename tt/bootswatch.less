@@ -166,7 +166,15 @@ h4 small, .h4 small { font-size: @font-size-base; }
 
 // Forms ======================================================================
 
-.input-sm, .input-lg, .input-group-addon, .input-group-btn > .btn {
+.input-sm {
+    font-size: @font-size-base
+}
+
+.input-sm, .input-lg,
+.input-group-addon.input-sm,
+.input-group-addon.input-lg,
+.input-group-addon,
+.input-group-btn > .btn {
     border-radius: 0;
 }
 
@@ -177,3 +185,10 @@ h4 small, .h4 small { font-size: @font-size-base; }
 // Progress bars ==============================================================
 
 // Containers =================================================================
+
+// Dropdowns = ================================================================
+
+.caret {
+    border-right-width: 4px;
+    border-left-width: 4px;
+}
