@@ -3,11 +3,11 @@
 // -----------------------------------------------------
 
 ::selection {
-	background: @brand-danger;
+    background: @brand-danger;
     color: black;
 }
 ::-moz-selection {
-	background: @brand-danger;
+    background: @brand-danger;
     color: black;
 }
 
@@ -22,32 +22,16 @@ a:hover {
 // Buttons ====================================================================
 
 .btn {
-    border-radius: 100px;
-    background: @gray-light;
-    color: white;
+    .button-variant(@btn-default-color; @btn-default-bg; @btn-default-border);
     font-weight: 500;
     padding-left: 15px;
     padding-right: 15px;
     vertical-align: baseline;
     text-transform: uppercase;
-    &:hover {
-        background: @brand-danger;
-        color: black;
-    }
 }
-
 
 .btn-default {
   .button-variant(@btn-default-color; @btn-default-bg; @btn-default-border);
-  &:hover,
-  &:focus,
-  &:active,
-  &.active,
-  .open .dropdown-toggle& {
-      background: @brand-danger;
-      border-color: @brand-danger;
-      color: black;
-  }
 }
 
 .btn-primary {
@@ -56,15 +40,6 @@ a:hover {
 // Warning appears as red for TT
 .btn-warning {
   .button-variant(@btn-warning-color; @btn-warning-bg; @btn-warning-border);
-  &:hover,
-  &:focus,
-  &:active,
-  &.active,
-  .open .dropdown-toggle& {
-    color: @btn-warning-color;
-    background-color: darken(@btn-warning-bg, 8%);
-        border-color: darken(@btn-warning-border, 12%);
-  }
 }
 // Danger and error appear as red
 .btn-danger {
