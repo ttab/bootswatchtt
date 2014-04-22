@@ -2,6 +2,8 @@
 // Bootswatch
 // -----------------------------------------------------
 
+@import url("//cloud.typography.com/7937292/741044/css/fonts.css");
+
 ::selection {
     background: @brand-danger;
     color: black;
@@ -105,6 +107,11 @@ h1, h2, h3, h4, h5, h6,
   }
 }
 
+// H1 is a bit thinner
+h1, .h1 {
+    font-weight: 300;
+}
+
 h1,
 h2,
 h3 {
@@ -118,7 +125,7 @@ h6 {
   margin-bottom: (@line-height-computed / 2);
 }
 
-h1, h2, h3, h4 {
+h1 {
     text-transform: uppercase;
 }
 

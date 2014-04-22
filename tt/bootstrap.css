@@ -1,3 +1,5 @@
+@import url("//cloud.typography.com/7937292/741044/css/fonts.css");
+
 /*!
  * Bootstrap v3.0.0
  *
@@ -300,7 +302,7 @@ html {
 }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
@@ -462,8 +464,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 200;
+  font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   line-height: 1.1;
 }
 
@@ -7589,8 +7591,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 200;
+  font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   line-height: 1.1;
 }
 
@@ -7612,6 +7614,11 @@ h6 small,
 }
 
 h1,
+.h1 {
+  font-weight: 300;
+}
+
+h1,
 h2,
 h3 {
   margin-top: 20px;
@@ -7625,10 +7632,7 @@ h6 {
   margin-bottom: 10px;
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1 {
   text-transform: uppercase;
 }
 
