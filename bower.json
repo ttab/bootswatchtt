@@ -1,10 +1,10 @@
 {
-	"name": "bootswatchtt",
-	"description": "TT theme made with Bootswatch",
-	"version": "1.1.1",
-	"devDependencies": {
-		"bootstrap": "~3.0.0"
-	},
+    "name": "bootswatchtt",
+    "description": "TT theme made with Bootswatch",
+    "version": "1.1.9",
+    "devDependencies": {
+        "bootstrap": "~3.0.0"
+    },
     "dependencies": {
         "jquery": ">= 1.9.0"
     },
