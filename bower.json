@@ -1,18 +1,21 @@
 {
-    "name": "bootswatchtt",
-    "description": "TT theme made with Bootswatch",
-    "version": "1.1.10",
-    "devDependencies": {
-        "bootstrap": "~3.0.0"
-    },
-    "dependencies": {
-        "jquery": ">= 1.9.0"
-    },
-    "main": ["tt/bootstrap.js",
-             "tt/bootstrap.css",
-             "fontello.css",
-             "assets/fonts/fontello.eot",
-             "assets/fonts/fontello.svg",
-             "assets/fonts/fontello.ttf",
-             "assets/fonts/fontello.woff"]
+  "name": "bootswatchtt",
+  "description": "TT theme made with Bootswatch",
+  "version": "1.1.10",
+  "devDependencies": {
+    "bootstrap": "~3.0.0"
+  },
+  "dependencies": {
+    "jquery": ">= 1.9.0",
+    "bootstrap": "3.2.0"
+  },
+  "main": [
+    "tt/bootstrap.js",
+    "tt/bootstrap.css",
+    "fontello.css",
+    "assets/fonts/fontello.eot",
+    "assets/fonts/fontello.svg",
+    "assets/fonts/fontello.ttf",
+    "assets/fonts/fontello.woff"
+  ]
 }
