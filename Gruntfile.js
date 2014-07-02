@@ -8,14 +8,13 @@ module.exports = function (grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     builddir: '.',
-    meta: {
-      banner: '/**\n' +
-            ' * <%= pkg.description %>\n' +
-            ' * @version v<%= pkg.version %> - ' +
-            '<%= grunt.template.today("yyyy-mm-dd") %>\n' +
-            ' * @link <%= pkg.homepage %>\n' +
-            ' * @license <%= pkg.license %>' + ' */'
-    },
+    banner: '/*!\n' +
+            ' * <%= pkg.name %> v<%= pkg.version %>\n' +
+            ' * Homepage: <%= pkg.homepage %>\n' +
+            ' * Copyright 2012-<%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
+            ' * Licensed under <%= pkg.license %>\n' +
+            ' * Based on Bootstrap\n' +
+            '*/\n',
     swatch: {
       tt:{}
     },
@@ -25,6 +24,10 @@ module.exports = function (grunt) {
       }
     },
     concat: {
+      options: {
+        banner: '<%= banner %>',
+        stripBanners: false
+      },
       dist: {
         src: [],
         dest: ''
@@ -40,6 +43,8 @@ module.exports = function (grunt) {
       }
     }
   });
+
+  grunt.registerTask('none', function() {});
 
   grunt.registerTask('build', 'build a regular theme', function(theme, compress) {
     var compress    = compress == undefined ? true : compress;
@@ -57,8 +62,8 @@ module.exports = function (grunt) {
         grunt.config('less.dist.files', files);
         grunt.config('less.dist.options.compress', false);
 
-        // Addition by TT
-        grunt.file.copy('bower_components/bootstrap/dist/js/bootstrap.js', theme + '/bootstrap.js');
+    // Addition by TT
+    //grunt.file.copy('bower_components/bootstrap/dist/js/bootstrap.js', theme + '/bootstrap.js');
 
 
     grunt.task.run(['concat', 'less:dist', 'clean:build',
