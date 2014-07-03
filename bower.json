@@ -2,10 +2,7 @@
   "name": "bootswatchtt",
   "description": "TT theme made with Bootswatch",
   "version": "1.1.11",
-  "dependencies": {
-    "jquery": ">= 1.9.0",
-    "bootstrap": "3.2.0"
-  },
+  "dependencies": {},
   "main": [
     "tt/bootstrap.js",
     "tt/bootstrap.css",
@@ -14,5 +11,9 @@
     "assets/fonts/fontello.svg",
     "assets/fonts/fontello.ttf",
     "assets/fonts/fontello.woff"
-  ]
+  ],
+  "ignore": [],
+  "devDependencies": {
+    "bootstrap": "3.2.0"
+  }
 }
