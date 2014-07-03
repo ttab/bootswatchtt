@@ -3,6 +3,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
 
   // Project configuration.
   grunt.initConfig({
@@ -18,11 +19,13 @@ module.exports = function (grunt) {
     swatch: {
       tt:{}
     },
+
     clean: {
       build: {
         src: ['*/build.less', '!global/build.less']
       }
     },
+
     concat: {
       options: {
         banner: '<%= banner %>',
@@ -33,6 +36,7 @@ module.exports = function (grunt) {
         dest: ''
       }
     },
+
     less: {
       production: {
         options: {
@@ -63,8 +67,7 @@ module.exports = function (grunt) {
         grunt.config('less.dist.options.compress', false);
 
     // Addition by TT
-    //grunt.file.copy('bower_components/bootstrap/dist/js/bootstrap.js', theme + '/bootstrap.js');
-
+    grunt.file.copy('bower_components/bootstrap/dist/js/bootstrap.js', theme + '/bootstrap.js');
 
     grunt.task.run(['concat', 'less:dist', 'clean:build',
       compress ? 'compress:'+lessDest+':'+'<%=builddir%>/' + theme + '/bootstrap.min.css':'none']);
