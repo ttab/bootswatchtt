@@ -8110,6 +8110,7 @@ fieldset[disabled] #embed-wrapper-tt-valkompassen-2014 .btn-link:focus {
 }
 
 #embed-wrapper-tt-valkompassen-2014 .btn:hover {
+  color: #000 !important;
   background: #ccc !important;
 }
 
@@ -8127,5 +8128,6 @@ fieldset[disabled] #embed-wrapper-tt-valkompassen-2014 .btn-link:focus {
 }
 
 #embed-wrapper-tt-valkompassen-2014 .btn.vague {
+  color: #fff !important;
   background: none !important;
 }
