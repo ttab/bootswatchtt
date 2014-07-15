@@ -8120,10 +8120,12 @@ fieldset[disabled] #embed-wrapper-tt-valkompassen-2014 .btn-link:focus {
 }
 
 #embed-wrapper-tt-valkompassen-2014 .btn.btn-success:hover {
+  color: #fff !important;
   background: #491 !important;
 }
 
 #embed-wrapper-tt-valkompassen-2014 .btn.btn-dark:hover {
+  color: #fff !important;
   background: #333 !important;
 }
 
