@@ -8104,3 +8104,7 @@ fieldset[disabled] #embed-wrapper-tt-valkompassen-2014 .btn-link:focus {
 #embed-wrapper-tt-valkompassen-2014 .affix {
   position: fixed;
 }
+
+#embed-wrapper-tt-valkompassen-2014 .btn {
+  border-radius: 100px;
+}
