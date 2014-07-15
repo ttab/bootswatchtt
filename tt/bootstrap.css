@@ -8108,3 +8108,24 @@ fieldset[disabled] #embed-wrapper-tt-valkompassen-2014 .btn-link:focus {
 #embed-wrapper-tt-valkompassen-2014 .btn {
   border-radius: 100px !important;
 }
+
+#embed-wrapper-tt-valkompassen-2014 .btn:hover {
+  background: #ccc !important;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn:hover:active,
+#embed-wrapper-tt-valkompassen-2014 .btn:hover.checked {
+  background: #ffe100 !important;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn.btn-success:hover {
+  background: #491 !important;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn.btn-dark:hover {
+  background: #333 !important;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn.vague {
+  background: none !important;
+}
