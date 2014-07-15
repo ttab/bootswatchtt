@@ -1960,6 +1960,828 @@ fieldset[disabled] #embed-wrapper-tt-valkompassen-2014 .btn-link:focus {
   width: 100%;
 }
 
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon:empty {
+  width: 1em;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-asterisk:before {
+  content: "\2a";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-plus:before {
+  content: "\2b";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-euro:before {
+  content: "\20ac";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-minus:before {
+  content: "\2212";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-cloud:before {
+  content: "\2601";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-envelope:before {
+  content: "\2709";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-pencil:before {
+  content: "\270f";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-glass:before {
+  content: "\e001";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-music:before {
+  content: "\e002";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-search:before {
+  content: "\e003";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-heart:before {
+  content: "\e005";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-star:before {
+  content: "\e006";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-star-empty:before {
+  content: "\e007";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-user:before {
+  content: "\e008";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-film:before {
+  content: "\e009";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-th-large:before {
+  content: "\e010";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-th:before {
+  content: "\e011";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-th-list:before {
+  content: "\e012";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-ok:before {
+  content: "\e013";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-remove:before {
+  content: "\e014";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-zoom-in:before {
+  content: "\e015";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-zoom-out:before {
+  content: "\e016";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-off:before {
+  content: "\e017";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-signal:before {
+  content: "\e018";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-cog:before {
+  content: "\e019";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-trash:before {
+  content: "\e020";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-home:before {
+  content: "\e021";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-file:before {
+  content: "\e022";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-time:before {
+  content: "\e023";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-road:before {
+  content: "\e024";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-download-alt:before {
+  content: "\e025";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-download:before {
+  content: "\e026";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-upload:before {
+  content: "\e027";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-inbox:before {
+  content: "\e028";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-play-circle:before {
+  content: "\e029";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-repeat:before {
+  content: "\e030";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-refresh:before {
+  content: "\e031";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-list-alt:before {
+  content: "\e032";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-lock:before {
+  content: "\e033";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-flag:before {
+  content: "\e034";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-headphones:before {
+  content: "\e035";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-volume-off:before {
+  content: "\e036";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-volume-down:before {
+  content: "\e037";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-volume-up:before {
+  content: "\e038";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-qrcode:before {
+  content: "\e039";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-barcode:before {
+  content: "\e040";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-tag:before {
+  content: "\e041";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-tags:before {
+  content: "\e042";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-book:before {
+  content: "\e043";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-bookmark:before {
+  content: "\e044";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-print:before {
+  content: "\e045";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-camera:before {
+  content: "\e046";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-font:before {
+  content: "\e047";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-bold:before {
+  content: "\e048";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-italic:before {
+  content: "\e049";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-text-height:before {
+  content: "\e050";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-text-width:before {
+  content: "\e051";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-align-left:before {
+  content: "\e052";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-align-center:before {
+  content: "\e053";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-align-right:before {
+  content: "\e054";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-align-justify:before {
+  content: "\e055";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-list:before {
+  content: "\e056";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-indent-left:before {
+  content: "\e057";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-indent-right:before {
+  content: "\e058";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-facetime-video:before {
+  content: "\e059";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-picture:before {
+  content: "\e060";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-map-marker:before {
+  content: "\e062";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-adjust:before {
+  content: "\e063";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-tint:before {
+  content: "\e064";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-edit:before {
+  content: "\e065";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-share:before {
+  content: "\e066";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-check:before {
+  content: "\e067";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-move:before {
+  content: "\e068";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-step-backward:before {
+  content: "\e069";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-fast-backward:before {
+  content: "\e070";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-backward:before {
+  content: "\e071";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-play:before {
+  content: "\e072";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-pause:before {
+  content: "\e073";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-stop:before {
+  content: "\e074";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-forward:before {
+  content: "\e075";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-fast-forward:before {
+  content: "\e076";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-step-forward:before {
+  content: "\e077";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-eject:before {
+  content: "\e078";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-chevron-left:before {
+  content: "\e079";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-chevron-right:before {
+  content: "\e080";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-plus-sign:before {
+  content: "\e081";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-minus-sign:before {
+  content: "\e082";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-remove-sign:before {
+  content: "\e083";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-ok-sign:before {
+  content: "\e084";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-question-sign:before {
+  content: "\e085";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-info-sign:before {
+  content: "\e086";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-screenshot:before {
+  content: "\e087";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-remove-circle:before {
+  content: "\e088";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-ok-circle:before {
+  content: "\e089";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-ban-circle:before {
+  content: "\e090";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-arrow-left:before {
+  content: "\e091";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-arrow-right:before {
+  content: "\e092";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-arrow-up:before {
+  content: "\e093";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-arrow-down:before {
+  content: "\e094";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-share-alt:before {
+  content: "\e095";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-resize-full:before {
+  content: "\e096";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-resize-small:before {
+  content: "\e097";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-exclamation-sign:before {
+  content: "\e101";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-gift:before {
+  content: "\e102";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-leaf:before {
+  content: "\e103";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-fire:before {
+  content: "\e104";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-eye-open:before {
+  content: "\e105";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-eye-close:before {
+  content: "\e106";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-warning-sign:before {
+  content: "\e107";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-plane:before {
+  content: "\e108";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-calendar:before {
+  content: "\e109";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-random:before {
+  content: "\e110";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-comment:before {
+  content: "\e111";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-magnet:before {
+  content: "\e112";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-chevron-up:before {
+  content: "\e113";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-chevron-down:before {
+  content: "\e114";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-retweet:before {
+  content: "\e115";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-shopping-cart:before {
+  content: "\e116";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-folder-close:before {
+  content: "\e117";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-folder-open:before {
+  content: "\e118";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-resize-vertical:before {
+  content: "\e119";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-resize-horizontal:before {
+  content: "\e120";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-hdd:before {
+  content: "\e121";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-bullhorn:before {
+  content: "\e122";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-bell:before {
+  content: "\e123";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-certificate:before {
+  content: "\e124";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-thumbs-up:before {
+  content: "\e125";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-thumbs-down:before {
+  content: "\e126";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-hand-right:before {
+  content: "\e127";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-hand-left:before {
+  content: "\e128";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-hand-up:before {
+  content: "\e129";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-hand-down:before {
+  content: "\e130";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-circle-arrow-right:before {
+  content: "\e131";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-circle-arrow-left:before {
+  content: "\e132";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-circle-arrow-up:before {
+  content: "\e133";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-circle-arrow-down:before {
+  content: "\e134";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-globe:before {
+  content: "\e135";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-wrench:before {
+  content: "\e136";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-tasks:before {
+  content: "\e137";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-filter:before {
+  content: "\e138";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-briefcase:before {
+  content: "\e139";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-fullscreen:before {
+  content: "\e140";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-dashboard:before {
+  content: "\e141";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-paperclip:before {
+  content: "\e142";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-heart-empty:before {
+  content: "\e143";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-link:before {
+  content: "\e144";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-phone:before {
+  content: "\e145";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-pushpin:before {
+  content: "\e146";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-usd:before {
+  content: "\e148";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-gbp:before {
+  content: "\e149";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-sort:before {
+  content: "\e150";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-sort-by-alphabet:before {
+  content: "\e151";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-sort-by-alphabet-alt:before {
+  content: "\e152";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-sort-by-order:before {
+  content: "\e153";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-sort-by-order-alt:before {
+  content: "\e154";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-sort-by-attributes:before {
+  content: "\e155";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-sort-by-attributes-alt:before {
+  content: "\e156";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-unchecked:before {
+  content: "\e157";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-expand:before {
+  content: "\e158";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-collapse-down:before {
+  content: "\e159";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-collapse-up:before {
+  content: "\e160";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-log-in:before {
+  content: "\e161";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-flash:before {
+  content: "\e162";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-log-out:before {
+  content: "\e163";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-new-window:before {
+  content: "\e164";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-record:before {
+  content: "\e165";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-save:before {
+  content: "\e166";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-open:before {
+  content: "\e167";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-saved:before {
+  content: "\e168";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-import:before {
+  content: "\e169";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-export:before {
+  content: "\e170";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-send:before {
+  content: "\e171";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-floppy-disk:before {
+  content: "\e172";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-floppy-saved:before {
+  content: "\e173";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-floppy-remove:before {
+  content: "\e174";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-floppy-save:before {
+  content: "\e175";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-floppy-open:before {
+  content: "\e176";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-credit-card:before {
+  content: "\e177";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-transfer:before {
+  content: "\e178";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-cutlery:before {
+  content: "\e179";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-header:before {
+  content: "\e180";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-compressed:before {
+  content: "\e181";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-earphone:before {
+  content: "\e182";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-phone-alt:before {
+  content: "\e183";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-tower:before {
+  content: "\e184";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-stats:before {
+  content: "\e185";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-sd-video:before {
+  content: "\e186";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-hd-video:before {
+  content: "\e187";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-subtitles:before {
+  content: "\e188";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-sound-stereo:before {
+  content: "\e189";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-sound-dolby:before {
+  content: "\e190";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-sound-5-1:before {
+  content: "\e191";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-sound-6-1:before {
+  content: "\e192";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-sound-7-1:before {
+  content: "\e193";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-copyright-mark:before {
+  content: "\e194";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-registration-mark:before {
+  content: "\e195";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-cloud-download:before {
+  content: "\e197";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-cloud-upload:before {
+  content: "\e198";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-tree-conifer:before {
+  content: "\e199";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .glyphicon-tree-deciduous:before {
+  content: "\e200";
+}
+
 #embed-wrapper-tt-valkompassen-2014 .caret {
   display: inline-block;
   width: 0;
