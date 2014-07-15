@@ -1960,6 +1960,150 @@ fieldset[disabled] #embed-wrapper-tt-valkompassen-2014 .btn-link:focus {
   width: 100%;
 }
 
+#embed-wrapper-tt-valkompassen-2014 .caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px solid;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .dropdown {
+  position: relative;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .dropdown-toggle:focus {
+  outline: 0;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  list-style: none;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .dropdown-menu .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #333333;
+  white-space: nowrap;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .dropdown-menu > li > a:hover,
+#embed-wrapper-tt-valkompassen-2014 .dropdown-menu > li > a:focus {
+  color: #262626;
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .dropdown-menu > .active > a,
+#embed-wrapper-tt-valkompassen-2014 .dropdown-menu > .active > a:hover,
+#embed-wrapper-tt-valkompassen-2014 .dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #428bca;
+  outline: 0;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .dropdown-menu > .disabled > a,
+#embed-wrapper-tt-valkompassen-2014 .dropdown-menu > .disabled > a:hover,
+#embed-wrapper-tt-valkompassen-2014 .dropdown-menu > .disabled > a:focus {
+  color: #999999;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .dropdown-menu > .disabled > a:hover,
+#embed-wrapper-tt-valkompassen-2014 .dropdown-menu > .disabled > a:focus {
+  text-decoration: none;
+  cursor: not-allowed;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+#embed-wrapper-tt-valkompassen-2014 .open > .dropdown-menu {
+  display: block;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .open > a {
+  outline: 0;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .dropdown-header {
+  display: block;
+  padding: 3px 20px;
+  font-size: 12px;
+  line-height: 1.428571429;
+  color: #999999;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .dropdown-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 990;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .pull-right > .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .dropup .caret,
+#embed-wrapper-tt-valkompassen-2014 .navbar-fixed-bottom .dropdown .caret {
+  border-top: 0;
+  border-bottom: 4px solid;
+  content: "";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .dropup .dropdown-menu,
+#embed-wrapper-tt-valkompassen-2014 .navbar-fixed-bottom .dropdown .dropdown-menu {
+  top: auto;
+  bottom: 100%;
+  margin-bottom: 1px;
+}
+
+@media (min-width: 768px) {
+  #embed-wrapper-tt-valkompassen-2014 .navbar-right .dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+}
+
 #embed-wrapper-tt-valkompassen-2014 .badge {
   display: inline-block;
   min-width: 10px;
@@ -2091,84 +2235,6 @@ fieldset[disabled] #embed-wrapper-tt-valkompassen-2014 .btn-link:focus {
 
 #embed-wrapper-tt-valkompassen-2014 .alert-danger .alert-link {
   color: #843534;
-}
-
-#embed-wrapper-tt-valkompassen-2014 .list-group {
-  padding-left: 0;
-  margin-bottom: 20px;
-}
-
-#embed-wrapper-tt-valkompassen-2014 .list-group-item {
-  position: relative;
-  display: block;
-  padding: 10px 15px;
-  margin-bottom: -1px;
-  background-color: #ffffff;
-  border: 1px solid #dddddd;
-}
-
-#embed-wrapper-tt-valkompassen-2014 .list-group-item:first-child {
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
-}
-
-#embed-wrapper-tt-valkompassen-2014 .list-group-item:last-child {
-  margin-bottom: 0;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-}
-
-#embed-wrapper-tt-valkompassen-2014 .list-group-item > .badge {
-  float: right;
-}
-
-#embed-wrapper-tt-valkompassen-2014 .list-group-item > .badge + .badge {
-  margin-right: 5px;
-}
-
-#embed-wrapper-tt-valkompassen-2014 a.list-group-item {
-  color: #555555;
-}
-
-#embed-wrapper-tt-valkompassen-2014 a.list-group-item .list-group-item-heading {
-  color: #333333;
-}
-
-#embed-wrapper-tt-valkompassen-2014 a.list-group-item:hover,
-#embed-wrapper-tt-valkompassen-2014 a.list-group-item:focus {
-  text-decoration: none;
-  background-color: #f5f5f5;
-}
-
-#embed-wrapper-tt-valkompassen-2014 a.list-group-item.active,
-#embed-wrapper-tt-valkompassen-2014 a.list-group-item.active:hover,
-#embed-wrapper-tt-valkompassen-2014 a.list-group-item.active:focus {
-  z-index: 2;
-  color: #ffffff;
-  background-color: #428bca;
-  border-color: #428bca;
-}
-
-#embed-wrapper-tt-valkompassen-2014 a.list-group-item.active .list-group-item-heading,
-#embed-wrapper-tt-valkompassen-2014 a.list-group-item.active:hover .list-group-item-heading,
-#embed-wrapper-tt-valkompassen-2014 a.list-group-item.active:focus .list-group-item-heading {
-  color: inherit;
-}
-
-#embed-wrapper-tt-valkompassen-2014 a.list-group-item.active .list-group-item-text,
-#embed-wrapper-tt-valkompassen-2014 a.list-group-item.active:hover .list-group-item-text,
-#embed-wrapper-tt-valkompassen-2014 a.list-group-item.active:focus .list-group-item-text {
-  color: #e1edf7;
-}
-
-#embed-wrapper-tt-valkompassen-2014 .list-group-item-heading {
-  margin-top: 0;
-  margin-bottom: 5px;
-}
-
-#embed-wrapper-tt-valkompassen-2014 .list-group-item-text {
-  margin-bottom: 0;
-  line-height: 1.3;
 }
 
 #embed-wrapper-tt-valkompassen-2014 .clearfix:before,
