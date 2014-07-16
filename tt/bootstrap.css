@@ -2926,6 +2926,265 @@ fieldset[disabled] #embed-wrapper-tt-valkompassen-2014 .btn-link:focus {
   }
 }
 
+#embed-wrapper-tt-valkompassen-2014 .btn-group,
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group > .btn,
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn {
+  position: relative;
+  float: left;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group > .btn:hover,
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn:hover,
+#embed-wrapper-tt-valkompassen-2014 .btn-group > .btn:focus,
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn:focus,
+#embed-wrapper-tt-valkompassen-2014 .btn-group > .btn:active,
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn:active,
+#embed-wrapper-tt-valkompassen-2014 .btn-group > .btn.active,
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn.active {
+  z-index: 2;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group > .btn:focus,
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn:focus {
+  outline: none;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group .btn + .btn,
+#embed-wrapper-tt-valkompassen-2014 .btn-group .btn + .btn-group,
+#embed-wrapper-tt-valkompassen-2014 .btn-group .btn-group + .btn,
+#embed-wrapper-tt-valkompassen-2014 .btn-group .btn-group + .btn-group {
+  margin-left: -1px;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-toolbar:before,
+#embed-wrapper-tt-valkompassen-2014 .btn-toolbar:after {
+  display: table;
+  content: " ";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-toolbar:after {
+  clear: both;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-toolbar:before,
+#embed-wrapper-tt-valkompassen-2014 .btn-toolbar:after {
+  display: table;
+  content: " ";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-toolbar:after {
+  clear: both;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-toolbar .btn-group {
+  float: left;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-toolbar > .btn + .btn,
+#embed-wrapper-tt-valkompassen-2014 .btn-toolbar > .btn-group + .btn,
+#embed-wrapper-tt-valkompassen-2014 .btn-toolbar > .btn + .btn-group,
+#embed-wrapper-tt-valkompassen-2014 .btn-toolbar > .btn-group + .btn-group {
+  margin-left: 5px;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+  border-radius: 0;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group > .btn:first-child {
+  margin-left: 0;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group > .btn:last-child:not(:first-child),
+#embed-wrapper-tt-valkompassen-2014 .btn-group > .dropdown-toggle:not(:first-child) {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group > .btn-group {
+  float: left;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group > .btn-group:first-child > .btn:last-child,
+#embed-wrapper-tt-valkompassen-2014 .btn-group > .btn-group:first-child > .dropdown-toggle {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group > .btn-group:last-child > .btn:first-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group .dropdown-toggle:active,
+#embed-wrapper-tt-valkompassen-2014 .btn-group.open .dropdown-toggle {
+  outline: 0;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group-xs > .btn {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group-sm > .btn {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group-lg > .btn {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group > .btn + .dropdown-toggle {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group > .btn-lg + .dropdown-toggle {
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group.open .dropdown-toggle {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group.open .dropdown-toggle.btn-link {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn .caret {
+  margin-left: 0;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-lg .caret {
+  border-width: 5px 5px 0;
+  border-bottom-width: 0;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .dropup .btn-lg .caret {
+  border-width: 0 5px 5px;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn,
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn-group,
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn-group > .btn {
+  display: block;
+  float: none;
+  width: 100%;
+  max-width: 100%;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn-group:before,
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn-group:after {
+  display: table;
+  content: " ";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn-group:after {
+  clear: both;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn-group:before,
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn-group:after {
+  display: table;
+  content: " ";
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn-group:after {
+  clear: both;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn-group > .btn {
+  float: none;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn + .btn,
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn + .btn-group,
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn-group + .btn,
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn-group + .btn-group {
+  margin-top: -1px;
+  margin-left: 0;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn:first-child:not(:last-child) {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn:last-child:not(:first-child) {
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 0;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn-group:first-child > .btn:last-child,
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn-group:first-child > .dropdown-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group-vertical > .btn-group:last-child > .btn:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group-justified {
+  display: table;
+  width: 100%;
+  border-collapse: separate;
+  table-layout: fixed;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group-justified > .btn,
+#embed-wrapper-tt-valkompassen-2014 .btn-group-justified > .btn-group {
+  display: table-cell;
+  float: none;
+  width: 1%;
+}
+
+#embed-wrapper-tt-valkompassen-2014 .btn-group-justified > .btn-group .btn {
+  width: 100%;
+}
+
+#embed-wrapper-tt-valkompassen-2014 [data-toggle="buttons"] > .btn > input[type="radio"],
+#embed-wrapper-tt-valkompassen-2014 [data-toggle="buttons"] > .btn > input[type="checkbox"] {
+  display: none;
+}
+
 #embed-wrapper-tt-valkompassen-2014 .badge {
   display: inline-block;
   min-width: 10px;
