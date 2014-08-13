@@ -2278,8 +2278,8 @@ fieldset[disabled] .btn-warning.active {
 
 .btn-danger {
   color: #000000;
-  background-color: #ffe100;
-  border-color: #fadd00;
+  background-color: #ffed00;
+  border-color: #fae800;
 }
 
 .btn-danger:hover,
@@ -2288,8 +2288,8 @@ fieldset[disabled] .btn-warning.active {
 .btn-danger.active,
 .open .dropdown-toggle.btn-danger {
   color: #000000;
-  background-color: #d6bd00;
-  border-color: #bda700;
+  background-color: #d6c700;
+  border-color: #bdaf00;
 }
 
 .btn-danger:active,
@@ -2313,8 +2313,8 @@ fieldset[disabled] .btn-danger:active,
 .btn-danger.disabled.active,
 .btn-danger[disabled].active,
 fieldset[disabled] .btn-danger.active {
-  background-color: #ffe100;
-  border-color: #fadd00;
+  background-color: #ffed00;
+  border-color: #fae800;
 }
 
 .btn-success {
@@ -5226,12 +5226,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .label-danger {
-  background-color: #ffe100;
+  background-color: #ffed00;
 }
 
 .label-danger[href]:hover,
 .label-danger[href]:focus {
-  background-color: #ccb400;
+  background-color: #ccbe00;
 }
 
 .badge {
@@ -5549,7 +5549,7 @@ a.thumbnail:focus {
 }
 
 .progress-bar-danger {
-  background-color: #ffe100;
+  background-color: #ffed00;
 }
 
 .progress-striped .progress-bar-danger {
@@ -7235,12 +7235,12 @@ td.visible-print {
 
 ::selection {
   color: black;
-  background: #ffe100;
+  background: #ffed00;
 }
 
 ::-moz-selection {
   color: black;
-  background: #ffe100;
+  background: #ffed00;
 }
 
 a:hover {
@@ -7425,8 +7425,8 @@ fieldset[disabled] .btn-warning.active {
 
 .btn-danger {
   color: #000000;
-  background-color: #ffe100;
-  border-color: #fadd00;
+  background-color: #ffed00;
+  border-color: #fae800;
 }
 
 .btn-danger:hover,
@@ -7435,8 +7435,8 @@ fieldset[disabled] .btn-warning.active {
 .btn-danger.active,
 .open .dropdown-toggle.btn-danger {
   color: #000000;
-  background-color: #d6bd00;
-  border-color: #bda700;
+  background-color: #d6c700;
+  border-color: #bdaf00;
 }
 
 .btn-danger:active,
@@ -7460,8 +7460,8 @@ fieldset[disabled] .btn-danger:active,
 .btn-danger.disabled.active,
 .btn-danger[disabled].active,
 fieldset[disabled] .btn-danger.active {
-  background-color: #ffe100;
-  border-color: #fadd00;
+  background-color: #ffed00;
+  border-color: #fae800;
 }
 
 .btn-success {
