@@ -7546,6 +7546,47 @@ fieldset[disabled] .btn-info.active {
   border-color: #57bedd;
 }
 
+.btn-mold {
+  color: #000000;
+  background-color: #a3c1b5;
+  border-color: #a0bfb3;
+}
+
+.btn-mold:hover,
+.btn-mold:focus,
+.btn-mold:active,
+.btn-mold.active,
+.open .dropdown-toggle.btn-mold {
+  color: #000000;
+  background-color: #8bb1a1;
+  border-color: #7ba695;
+}
+
+.btn-mold:active,
+.btn-mold.active,
+.open .dropdown-toggle.btn-mold {
+  background-image: none;
+}
+
+.btn-mold.disabled,
+.btn-mold[disabled],
+fieldset[disabled] .btn-mold,
+.btn-mold.disabled:hover,
+.btn-mold[disabled]:hover,
+fieldset[disabled] .btn-mold:hover,
+.btn-mold.disabled:focus,
+.btn-mold[disabled]:focus,
+fieldset[disabled] .btn-mold:focus,
+.btn-mold.disabled:active,
+.btn-mold[disabled]:active,
+fieldset[disabled] .btn-mold:active,
+.btn-mold.disabled.active,
+.btn-mold[disabled].active,
+fieldset[disabled] .btn-mold.active {
+  background-color: #a3c1b5;
+  border-color: #a0bfb3;
+}
+
 .btn-link {
   font-weight: normal;
   color: #1269b0;
