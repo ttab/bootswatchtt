@@ -7,3 +7,6 @@ Bootswatch theme for TT
     bower install
     npm install -g grunt-cli
     ./build.sh
+
+
+7BA192
