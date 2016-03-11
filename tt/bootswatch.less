@@ -32,9 +32,8 @@ body {
 .btn {
     .button-variant(@btn-default-color; @btn-default-bg; @btn-default-border);
     font-weight: 400;
-    padding-left: 20px;
-    padding-right: 20px;
-    letter-spacing: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
     vertical-align: baseline;
     text-transform: uppercase;
 }
@@ -120,7 +119,7 @@ h1, h2, h3, h4, h5, h6,
 
 // H1 is a bit thinner
 h1, .h1 {
-    font-weight: 200;
+    font-weight: 300;
 }
 
 h1,
@@ -140,7 +139,7 @@ h1 {
     text-transform: uppercase;
 }
 
-h1, .h1 { font-size: ceil(@font-size-base * 3.30); } // ~50px
+h1, .h1 { font-size: ceil(@font-size-base * 2.20); } // ~31px
 @media (max-width: @screen-phone-max) {
     h1, .h1 { font-size: ceil(@font-size-base * 1.70); } // ~27px
 }
