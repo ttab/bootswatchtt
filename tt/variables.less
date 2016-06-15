@@ -6,25 +6,55 @@
 // Global values
 // --------------------------------------------------
 
+// Blacks
+// -------------------------
+@black:                  #000000;
+
 // Grays
 // -------------------------
 
 @gray-darker:            lighten(#000, 13.5%); // #222
-@gray-dark:              lighten(#000, 20%);   // #333
+@gray-dark:              #4c565c;
 @gray:                   #515151;
 @gray-light:             #8c8c8c;
-@gray-lighter:           lighten(#000, 93.5%); // #eee
+@gray-lighter:           #f8f8f8;
+
+// Greens
+// -------------------------
+@green-dark:             #a3c1b5; // Green dark (secondary);
+@green:                  #7ca192; // Green (primary);
+@green-light:            #d4e5de; // Green light (secondary);
+@green-secondary:        #607d8b; // Green (primary-secondary);
+
+// Yellows
+// -------------------------
+@yellow-dark:            #fff59d; // Yellow dark (secondary);
+@yellow:                 #ffed00; // Yellow (primary);
+@yellow-light:           #fcf8e2; // Yellow light (secondary);
+
+// Blues
+// -------------------------
+@blue-dark:              #1a237e; // Blue dark (primary-secondary);
+@blue:                   #3f51bf; // Blue (primary-secondary);
+@blue-light:             #9fa8da; // Blue light (primary-secondary);
+
+// Reds
+// -------------------------
+@red-dark:               #c62828; // Red dark (primary-secondary);
+@red:                    #ff5252; // Red (primary-secondary);
+@red-light:              #ef9a9a; // Red light (primary-secondary);
 
 // Brand colors
 // -------------------------
 
 @brand-primary:         #3f51bf; // also @link-color
-@brand-success:         #7ca192;
-@brand-warning:         #c62828; // TT red brand color
-@brand-danger:          #ffed00; // TT yellow brand color
+@brand-success:         @green;
+@brand-warning:         @red; // TT red brand color
+@brand-danger:          @yellow; // TT yellow brand color
 @brand-info:            #607d8b;
 
 @brand-mold:            #a3c1b5;
+@brand-black:           #181818;
 
 // Scaffolding
 // -------------------------
@@ -374,15 +404,15 @@
 // -------------------------
 
 @state-warning-text:             #000000;
-@state-warning-bg:               #fcf8e3;
+@state-warning-bg:               @yellow-dark;
 @state-warning-border:           darken(spin(@state-warning-bg, -10), 3%);
 
-@state-danger-text:              #b94a48;
-@state-danger-bg:                #f2dede;
+@state-danger-text:              @red-dark;
+@state-danger-bg:                @red-light;
 @state-danger-border:            darken(spin(@state-danger-bg, -10), 3%);
 
-@state-success-text:             #468847;
-@state-success-bg:               #dff0d8;
+@state-success-text:             @brand-success;
+@state-success-bg:               @green-light;
 @state-success-border:           darken(spin(@state-success-bg, -10), 5%);
 
 @state-info-text:                #3a87ad;
