@@ -7757,6 +7757,12 @@ h4 small,
   border-radius: 0;
 }
 
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1480px;
+  }
+}
+
 .caret {
   border-right-width: 4px;
   border-left-width: 4px;
