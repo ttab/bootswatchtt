@@ -1,7 +1,7 @@
 {
   "name": "bootswatchtt",
   "description": "TT variant of bootswatch",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "homepage": "http://bootswatch.com/",
   "license": "Apache License, Version 2.0, http://www.apache.org/licenses/LICENSE-2.0",
   "repository": {
