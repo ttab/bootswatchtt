@@ -429,7 +429,7 @@ cite {
 }
 
 .text-danger {
-  color: #ffffff;
+  color: #c62828;
 }
 
 .text-success {
@@ -1952,25 +1952,25 @@ textarea.input-lg {
 
 .has-error .help-block,
 .has-error .control-label {
-  color: #ffffff;
+  color: #c62828;
 }
 
 .has-error .form-control {
-  border-color: #ffffff;
+  border-color: #c62828;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 
 .has-error .form-control:focus {
-  border-color: #e6e6e6;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ffffff;
+  border-color: #9c1f1f;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #e27272;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #e27272;
 }
 
 .has-error .input-group-addon {
-  color: #ffffff;
+  color: #c62828;
   background-color: #ef9a9a;
-  border-color: #ffffff;
+  border-color: #c62828;
 }
 
 .has-success .help-block,
