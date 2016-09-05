@@ -10,7 +10,7 @@
     },
     "main": ["tt/bootstrap.js",
              "tt/bootstrap.css",
-             "assets/fonts/fontello.css",
+             "tt/fontello.css",
              "assets/fonts/fontello.eot",
              "assets/fonts/fontello.svg",
              "assets/fonts/fontello.ttf",
