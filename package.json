@@ -1,5 +1,5 @@
 {
-  "name": "bootswatchtt",
+  "name": "@ttab/bootswatchtt",
   "description": "TT variant of bootswatch",
   "version": "1.3.7",
   "homepage": "http://bootswatch.com/",
@@ -7,6 +7,9 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/ttab/bootswatchtt.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
